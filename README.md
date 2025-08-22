@@ -37,5 +37,8 @@ RB,5,Jahmyr Gibbs,DET,8,1,
 
 > [!WARNING]
 > The DST records are now separate DEF and SPT row
-> DEF,153,DEN DEF,DEN,12,9,
-> SPT,153,DEN SPT,DEN,12,9,
+
+```console
+DEF,153,DEN DEF,DEN,12,9,
+SPT,153,DEN SPT,DEN,12,9,
+```

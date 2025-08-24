@@ -2,7 +2,7 @@
 
 This is my quick and dirty node app to:
 
-* Get overall rankings from FantasyPros.com
+* Get overall rankings from [FantasyPros.com](https://www.fantasypros.com)
 * Write an output comma delimited file CSV `.data/2025_LOFFL_Draft.csv`
 * Add special logic to handle Defense and Special Teams
 

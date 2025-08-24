@@ -1,4 +1,6 @@
-## Lazy Owner Fantasy Football League (LOFFL) Draft Order Cheatsheet
+# Lazy Owner Fantasy Football League (LOFFL) Draft Order Cheatsheet
+
+## Description
 
 This is my quick and dirty node app to:
 
@@ -10,21 +12,21 @@ This is my quick and dirty node app to:
 
 * Node
 
-## Common setup
+## Usage
 
-Step 1: Clone the repo and change to the working directory.
+### Step 1: Clone the repo and change to the working directory.
 
 ```bash
 git clone https://github.com/mofo110/loffl-draft.git
 cd loffl-draft
 ```
-Step 2: Execute to get the draft order.
+### Step 2: Execute to get the draft order.
 
 ```bash
 node get-draft-order.js
 ```
 
-Step 3: Use your favorite CSV tool to review the outpout `./data/2025_LOFFL_Draft.csv`.
+### Step 3: Use your favorite CSV tool to review the outpout `./data/2025_LOFFL_Draft.csv`.
 
 ```console
 Position,Rank,Name,Team,Bye,Tier,Org

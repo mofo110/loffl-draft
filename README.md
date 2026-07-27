@@ -5,7 +5,7 @@
 This is my quick and dirty node app to:
 
 * Get overall rankings from [FantasyPros.com](https://www.fantasypros.com)
-* Write an output comma delimited file CSV `.data/2025_LOFFL_Draft.csv`
+* Write an output comma delimited file CSV `./data/<CCYY>_LOFFL_Draft.csv`
 * Add special logic to handle Defense and Special Teams
 
 ## Requirements
@@ -26,21 +26,21 @@ cd loffl-draft
 node get-draft-order.js
 ```
 
-### Step 3: Use your favorite CSV tool to review the outpout `./data/2025_LOFFL_Draft.csv`.
+### Step 3: Use your favorite CSV tool to review the outpout `./data/<CCYY>_LOFFL_Draft.csv`.
 
 ```console
 Position,Rank,Name,Team,Bye,Tier,Org
-WR,1,Ja'Marr Chase,CIN,10,1,
-RB,2,Bijan Robinson,ATL,5,1,
-RB,3,Saquon Barkley,PHI,9,1,
-WR,4,CeeDee Lamb,DAL,10,1,
-RB,5,Jahmyr Gibbs,DET,8,1,
+RB,1,Jahmyr Gibbs,DET,6,1,
+RB,2,Bijan Robinson,ATL,11,1,
+WR,3,Ja'Marr Chase,CIN,6,1,
+WR,4,Puka Nacua,LAR,11,1,
+WR,5,Jaxon Smith-Njigba,SEA,11,2,
 ```
 
 > [!WARNING]
 > The DST records are now separate DEF and SPT rows.
 
 ```console
-DEF,153,DEN DEF,DEN,12,9,
-SPT,153,DEN SPT,DEN,12,9,
+DEF,154,HOU DEF,HOU,8,9,
+SPT,154,HOU SPT,HOU,8,9,
 ```

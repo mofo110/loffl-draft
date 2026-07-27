@@ -66,7 +66,7 @@ function getRecord(record) {
 
     console.log(output);
     const currentYear = new Date().getFullYear();
-    const file = `./data/${currentYear}_LOFFL_Draft.csv`;
+    const file = `./${currentYear}_LOFFL_Draft.csv`;
     fs.writeFileSync(file, output);
 }
 

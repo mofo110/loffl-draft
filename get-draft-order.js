@@ -65,7 +65,9 @@ function getRecord(record) {
     });
 
     console.log(output);
-    fs.writeFileSync('./data/2025_LOFFL_Draft.csv', output);
+    const currentYear = new Date().getFullYear();
+    const file = `./data/${currentYear}_LOFFL_Draft.csv`;
+    fs.writeFileSync(file, output);
 }
 
 function getRanking(ranking) {   
